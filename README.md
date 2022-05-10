@@ -77,7 +77,7 @@ for character in automata.alphabet:
 print("string", input, "is", result)
 ```
 
-you could realize that we only need to implement a NFA class to do everything that a NFA and a DFA could do, since the NFA are a generalization of DFAs,
+You could realize that we only need to implement a NFA class to do everything that an NFA and a DFA could do, since the NFAs are a generalization of DFAs,
 this implementation can be reduced to one class, or two with slightly changed interfaces, resulting in less code.
 
 # Last step
